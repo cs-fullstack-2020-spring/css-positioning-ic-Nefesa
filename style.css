@@ -10,10 +10,20 @@ body{
 }
 .content{
     border: 1px solid green;
+   position: relative ;
+   width: 45%;
+   float: left;
+
+
 }
 .sidebar{
-    border: 1px solid  blue;
-}
+    border: 1px solid blue;
+    width: 45%;
+    position: relative;
+    float: right; 
+
+} 
 .footer{
     border: 1px solid purple;
+    clear: both;
 }
